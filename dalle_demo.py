@@ -5,7 +5,7 @@ from io import BytesIO
 import os
 
 # Initialize OpenAI API with your API key
-openai.api_key = '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'
+openai.api_key = ''
 
 def generate_image(prompt):
     response = openai.Image.create(
